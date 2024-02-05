@@ -1,5 +1,5 @@
 # HTML & CSS
-## Full Stack Course - {{ Start Date }}
+## Full Stack Course - February 7, 2024
 
 ### ✏️ Homework
 
@@ -10,22 +10,22 @@
 - [Handout](https://drive.google.com/file/d/1Fru1vsb49-sY9GvGEBSvveWaFn49xDWQ/view?usp=sharing)
 
 ### 📅 Dates:
-  - Wed, February 7 {{ Weekday, Month Day }}
-  - Fri, February 9 {{ Weekday, Month Day }}
-  - Fri, February 16 {{ Weekday, Month Day }}
-  - Mon, February 19 {{ Weekday, Month Day }}
-  - Wed, February 21 {{ Weekday, Month Day }}
-  - Fri, February 23 {{ Weekday, Month Day }}
-  - Mon, February 26 {{ Weekday, Month Day }}
-  - Wed, February 28 {{ Weekday, Month Day }}
-  - Fri, May 1 {{ Weekday, Month Day }}
+  - Wed, February 7
+  - Fri, February 9 
+  - Fri, February 16
+  - Mon, February 19
+  - Wed, February 21
+  - Fri, February 23
+  - Mon, February 26
+  - Wed, February 28
+  - Fri, March 1
 
 ### 🎯 Location:
-{{Whisky Tango Foxtrot / Die Diele / ABK}}
+ABK Akademie für Beruf & Karriere, Campus Eilbek
 
 ### 🤔 Questions?
 
-Use the Slack channel #{{ slack-channel }}
+Use the Slack channel ##fullstack-2024-1
 
 > To join Slack just click on this [link](https://hamburgcodingschool.slack.com/join/shared_invite/enQtMjczNDI3OTE4NzIwLTE2ZmNkNDk5YTg3MDFlOTY2ZmU2YzU5YTU4MTNhNDg4MTRhNTMwYzFiNTdlOTdhYzllYzg5YmVkYzljNWExY2U#/)
 
