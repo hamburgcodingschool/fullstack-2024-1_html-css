@@ -1,0 +1,31 @@
+/* GENERAL STYLES */
+body {
+    background-color: #000000; /* black */
+    color: #ffffff; /* white */
+    font-family: "Arial", "Helvetica", sans-serif;
+    line-height: 2;
+    margin: 0;
+}
+
+hr {
+    border-color: yellow;
+}
+
+ul,
+ol {
+    border: 2px solid #fff; /* white */
+    padding: 20px 40px;
+}
+
+/* LAYOUT */
+.logo {
+    width: 50px;
+}
+
+.list-fruits {
+    color: red;
+}
+
+.list-colors {
+    color:green;
+}
