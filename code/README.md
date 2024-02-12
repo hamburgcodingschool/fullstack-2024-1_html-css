@@ -1,3 +1,3 @@
-code folder is used to share your lessons with the students. How you organise this folder is up to you.
+# Class Examples
 
-You can delete this file.
+Code examples from each day of the classes.
