@@ -1,0 +1,23 @@
+body {
+	background-color: black;
+	color: #fff; /* white */
+}
+
+.block {
+	background-color: green;
+}
+
+/* Element - nested element (child) inside .block */
+.block__element {
+	font-family: "Arial", sans-serif;
+}
+
+/* Block */
+.blocktext {
+	background-color: blue;
+}
+
+/* Modifier - variation of .blocktext */
+.blocktext--modifier {
+	border: 2px solid red;
+}
