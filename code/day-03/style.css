@@ -1,0 +1,21 @@
+body {
+	font-size: 100px;
+}
+
+.red {
+	color: red;
+/* 	Never use the !important flag!! */
+/* 	color: red !important; */
+}
+
+#green {
+	color: green;
+}
+
+.blue {
+	color: blue;
+}
+
+.green {
+	color: green;
+}
