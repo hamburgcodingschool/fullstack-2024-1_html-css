@@ -3,21 +3,22 @@ body {
 	color: #fff; /* white */
 }
 
+/* BEM: Block */
 .block {
 	background-color: green;
 }
 
-/* Element - nested element (child) inside .block */
+/* BEM: Element - nested element (child) inside .block */
 .block__element {
 	font-family: "Arial", sans-serif;
 }
 
-/* Block */
+/* BEM: Block */
 .blocktext {
 	background-color: blue;
 }
 
-/* Modifier - variation of .blocktext */
+/* BEM: Modifier - variation of .blocktext */
 .blocktext--modifier {
 	border: 2px solid red;
 }
