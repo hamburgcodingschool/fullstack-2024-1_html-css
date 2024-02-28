@@ -1,0 +1,39 @@
+body {
+	font-size: 20px;
+}
+
+.parent {
+/* 	font-size: 30px; */
+}
+
+/* em unit in font-size property:
+em is relative to the element's parent font-size.
+1em = parent element font-size
+2em = parent element font-size * 2
+The parent element in this example is the <body> */
+/* ------- */
+/* em unit in width/height/margin/padding properties:
+em is relative to the font-size of the element itself.
+1em = element font-size
+2em = element font-size * 2 */
+.em {
+	font-size: 2em;
+/* 	width: 2em; */
+/* 	height: 2em; */
+/* 	margin: 2em; */
+/* 	padding: 2em; */
+}
+
+/* rem unit in font-size/width/height/margin/padding properties:
+rem is relative to the root element's font-size.
+The root element is the top-level element <html>.
+Most browsers have a default value of 16px for the font-size.
+1rem = root element 16px
+2rem = root element 32px (16px * 2) */
+.rem {
+	font-size: 2rem;
+/* 	width: 2rem; */
+/* 	height: 2rem; */
+/* 	margin: 2rem; */
+/* 	padding: 2rem; */
+}
