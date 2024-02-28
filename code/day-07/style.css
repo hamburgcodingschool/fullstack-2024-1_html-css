@@ -1,0 +1,24 @@
+/* GLOBAL RESETS */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* GLOBAL STYLES */
+body {
+	padding: 30px;
+}
+
+button {
+	display: block;
+	margin-top: 20px;
+}
+
+/* LAYOUT */
+.form-fieldset {
+	padding: 20px;
+}
+
+.form-fieldset > label {
+	margin-right: 20px;
+}
