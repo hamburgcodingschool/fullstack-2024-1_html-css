@@ -1,0 +1,22 @@
+/* BEM - Block */
+.options {
+	background-color: yellowgreen;
+	padding: 1.25rem 2rem;
+	margin-bottom: 5%;
+}
+/* BEM - Modifier (variation) of .options */
+.options--bg {
+	background-color: pink;
+}
+/* BEM - Element nested (child) in .options */
+.options__heading {
+	font-size: 3rem;
+	text-transform: uppercase;
+	margin: 0;
+}
+/* BEM - Element nested (child) in .options */
+.options__list {
+	line-height: 2; /* Unitless value: this number is being multiplied by the element's font size */
+	list-style-type: square;
+	margin: 0;
+}
