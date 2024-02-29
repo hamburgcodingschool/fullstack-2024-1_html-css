@@ -1,0 +1,44 @@
+body {
+	font-size: 25px;
+}
+
+section > p:first-child {
+	border: 10px solid red;
+}
+
+/* Descendant combinator */
+section p {
+	color: blue;
+}
+
+section div p {
+	border: 1px solid blue;
+}
+
+/* Child combinator */
+div > p {
+	color: green;
+}
+
+/* section div span p { */
+/* div > span p { */
+/* span > p { */
+div > * > p {
+/* div > span > p { */
+	color: red;
+	font-size: 40px;
+}
+
+/* Subsequent-sibling combinator */
+section ~ p {
+	color: orange;
+}
+
+/* Next-sibling combinator */
+section + p {
+	background-color: black;
+}
+
+article + p {
+	border: 10px solid purple;
+}
