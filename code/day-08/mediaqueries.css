@@ -1,0 +1,58 @@
+.box {
+	background-color: pink
+}
+/* Viewport is 600 pixels or narrower */
+@media screen and (max-width: 600px) {
+	.box {
+		background-color: green;
+		font-size: 40px;
+		border: 12px solid red;
+	}
+}
+
+h2 {
+	color: purple;
+}
+/* Viewport is 600 pixels or narrower */
+@media screen and (max-width: 600px) {
+	h2 {
+		color: purple;
+	}
+}
+
+/* Viewport is 900 pixels or larger */
+@media screen and (min-width: 900px) {
+  .box {
+    background-color: red;
+
+  }
+}
+
+/* Device in landscape mode */
+/* @media (orientation: landscape) {
+  .box {
+    background-color: rebeccapurple;
+  }
+} */
+/* FYI - A standard desktop view has a landscape orientation */
+/* Read more: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Media_queries#orientation */
+/* ---------------------- */
+/* ---------------------- */
+/* ---------------------- */
+/* ---------------------- */
+/* ---------------------- */
+/* ---------------------- */
+/* ---------------------- */
+/* If you need to target an specific device and orientation you could do the following: */
+
+/* iPhone SE - Landscape */
+/* Reference: https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+	.box {
+		background-color: rebeccapurple;
+	}
+}
